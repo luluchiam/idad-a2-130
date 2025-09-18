@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bubble UI Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bubble UI Project</h1>
+    </header>
+
+    <main>
+      <section class="content-block">
+        <h2>Project Conceptualisation</h2>
+        <div class="image-row">
+          <img src="visual-plan-1.jpg" alt="Visual Plan 1" class="theme-img" />
+          <img src="visual-plan-2.jpg" alt="Visual Plan 2" class="theme-img" />
+        </div>
+        <p>
+          I chose the “No text characters” prompt for my Bubble UI. The idea was
+          to create an interface that communicates and responds entirely without
+          written words, using floating bubbles as the central element. The
+          bubbles become both the focus and the interaction point: its movement,
+          colour, and sound provide all the feedback a user needs. My visual
+          plan was to have glowing bubbles against a beach or ocean theme
+          background.
+        </p>
+      </section>
+
+      <section class="content-block">
+        <h2>Inspiration</h2>
+        <div class="image-row">
+          <img
+            src="beach-inspiration.jpg"
+            alt="Beach Inspiration"
+            class="theme-img"
+          />
+          <img
+            src="bubble-inspiration.jpg"
+            alt="Bubble Inspiration"
+            class="theme-img"
+          />
+        </div>
+        <p>
+          The inspiration for this project comes from my love for the beach.
+          I’ve always loved going there, I love the feeling of the sand under my
+          feet, the salty breeze, and the sunset. Being at the beach is
+          incredibly calming and satisfying for me. I especially love the sounds
+          of the gentle crashing of waves, the soft rustle of the sand as it
+          shifts, the distant call of seagulls and more. These sounds instantly
+          make me feel relaxed, and I wanted to capture that sense of peace in
+          my project.
+        </p>
+        <p>
+          This project isn’t about serving a specific purpose, it's something I
+          created for myself, inspired by what I enjoy. I also added bubbles
+          because I thought they would be a fun, cute element. I’ve always been
+          obsessed with those aesthetic, floating bubbles that you would see on
+          Pinterest, and I wanted to bring a little bit of that whimsical
+          feeling into my work. By combining the ambient beach sounds with
+          playful visual elements like bubbles, I hoped to create a small,
+          immersive space that evokes the soothing, joyful atmosphere of the
+          beach.
+        </p>
+      </section>
+
+      <section class="content-block">
+        <h2>Technical Conceptualisation</h2>
+        <div class="image-row">
+          <img src="map-sketch.jpg" alt="Map Sketch" class="theme-img" />
+        </div>
+        <p>
+          For the technical side, I built the UI using HTML, CSS, and
+          JavaScript, and connected it to the audio system so that the bubble
+          responds with sound. A looping ocean breeze track plays in the
+          background to set a calm mood. When the user clicks the bubble, the
+          sound changes slightly. I used <code>Math.random()</code> in the code
+          so that these changes are never exactly the same, sometimes the volume
+          shifts a little, sometimes the effect feels stronger or softer. This
+          randomness makes the experience feel more natural, like real waves or
+          wind. The process can be thought of like this:
+        </p>
+        <p class="flow-diagram">
+          User interaction → Event listener (hover/click) → JavaScript function
+          with Math.random() → Web Audio API modulation → Ambient feedback to
+          user.
+        </p>
+      </section>
+
+      <section class="content-block">
+        <h2>Reflection</h2>
+        <p>For my peer user testing, I asked two prompts:</p>
+        <ul>
+          <li>
+            Is the interaction (clicking the bubble to play sound) clear and
+            easy to understand?
+          </li>
+          <li>
+            How effective is the visual style of the bubble? If not, what other
+            things can I improve on?
+          </li>
+        </ul>
+        <p>
+          The feedback was very helpful. It confirmed that my design has a
+          strong starting point but needs more depth to keep users more engaged.
+          I agree with the comments about adding more bubbles, making the
+          background fit the theme better, and providing a richer interactive
+          experience. I also see the importance of clearer instructions or
+          subtle guidance for first-time users. For the final project, based on
+          the feedback that was given in Wednesday's user testing, I will add a
+          beach themed background and more visual elements to the project to add
+          more depth and also add a clear guide/instructions for the users.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

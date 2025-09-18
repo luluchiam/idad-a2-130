@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #87ceeb, #fceabb);
+  background-attachment: fixed;
+  color: #2c2c2c;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #004d61;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+  display: inline-block;
+  background: rgba(255, 248, 169, 0.769);
+  color: #004d61;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 30px;
+  box-shadow: 0 6px 12px rgba(0, 121, 107, 0.3);
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.content-block {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.content-block h2 {
+  color: #00796b;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.flow-diagram {
+  font-style: italic;
+  background: #e0f7fa;
+  padding: 10px;
+  border-left: 4px solid #00796b;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.theme-img {
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #ffffffcc;
+  padding: 5px;
+}
