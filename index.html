@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Ocean Bubbles</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="bubble"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chill Bubble UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--  AUDIO CONTROLS -->
+    <div id="audio-controls">
+      <button id="play-btn">▶️</button>
+      <button id="pause-btn">⏸️</button>
+      <button id="mute-btn">🔇</button>
+    </div>
 
-  <audio id="ambient" loop>
-    <source src="audio/calm_ocean_breeze.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-  </audio>
+    <!--  WELCOME POPUP  -->
+    <div id="welcome-popup" class="popup">
+      <div class="popup-content">
+        <h2>Pop a bubble and hear the sea!</h2>
+        <p>
+          Each bubble has its own sound.<br />Explore, click, and see what you
+          discover.
+        </p>
+        <button id="start-btn">Start</button>
+      </div>
+    </div>
 
-  <script src="script.js"></script>
-</body>
+    <!--  BUBBLE CONTAINER  -->
+    <div id="bubble-container"></div>
+
+    <!--  BACKGROUND OCEAN AUDIO (KEPT)  -->
+    <audio id="ambient" loop autoplay src="audio/calm_ocean_breeze.mp3"></audio>
+
+    <!--  TONE.JS LIBRARY (FOR NOTES)  -->
+    <script src="https://unpkg.com/tone"></script>
+
+    <!--  MAIN SCRIPT  -->
+    <script src="script.js"></script>
+  </body>
 </html>
