@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #b3ecff, #e6f7ff);
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #00334d;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+section {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 51, 77, 0.25);
+  padding: 25px 30px;
+  margin-bottom: 35px;
+}
+
+h1 {
+  text-align: center;
+  color: #005f73;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 2px rgba(0, 51, 77, 0.3);
+}
+
+h2 {
+  color: #0077b6;
+  border-bottom: 2px solid #90e0ef;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: justify;
+  margin: 12px 0;
+}
+
+strong {
+  color: #005f73;
+}
