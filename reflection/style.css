@@ -45,3 +45,9 @@ p {
 strong {
   color: #005f73;
 }
+
+a {
+  color: #0077b6;
+  padding-right: 1rem;
+  text-align: center;
+}
